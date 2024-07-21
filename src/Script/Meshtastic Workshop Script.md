@@ -181,6 +181,8 @@ Next lets walk through the Android setup since they are slightly different.
 
 #### Slide 16
 
+![](http://hedgedoc.malin.onl/uploads/8a5c4009-3cef-4357-8f3a-0346e6f9994d.jpg)
+
 If you already have a Meshtastic Device, you can join our private Bitcoin Conference chat channels. Here is the information you will need to connect. Open the Meshtastic app, go to the Channels tab and scan the code. 
 
 Again, If you already have some custom channels setup make sure to backup your configuration or save your Channel URL somewhere so you can restore them later before scanning this code. 
@@ -327,7 +329,7 @@ Now, I’d be happy to answer any questions you may have.
 
 #### Slide 29
 
-![](http://hedgedoc.malin.onl/uploads/6e2c075c-1302-4590-9231-40f9c167dcfe.jpg)
+![](http://hedgedoc.malin.onl/uploads/31826703-ce25-493d-91db-40ea05ac262a.jpg)
 
 Here are some links to Meshtastic resources as well as a download link for this entire presentation. 
 
