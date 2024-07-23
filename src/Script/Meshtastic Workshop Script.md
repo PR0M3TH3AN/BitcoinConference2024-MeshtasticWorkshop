@@ -120,7 +120,7 @@ Something to note here, If your using a Linux distribution and your Chrome brows
 
 Once connected, go to flasher.meshtastic.org and select the correct device that you have connected using the first drop down menu on the left.
 
-Then select the version of the firmware you with to install. I typically use the latest Stable version.
+Then select the version of the firmware you wish to install. I typically use the latest Stable version.
 
 And then select the Flash button on the right.
 
@@ -140,7 +140,7 @@ Then the Chrome browser will ask for permission to connect to the device. If you
 
 ![](http://hedgedoc.malin.onl/uploads/293c10f8-debd-4a8a-8cf8-5c56bfc37569.jpg)
 
-ow were done on the LoRa device side of things. You should now see a Meshtastic screen on the device with a connection code under the logo. We will use this one-time code to connect the phone to this radio.
+Now were done on the LoRa device side of things. You should now see a Meshtastic screen on the device with a connection code under the logo. We will use this one-time code to connect the phone to this radio.
 
 ---
 
@@ -172,9 +172,9 @@ Next lets walk through the Android setup since they are slightly different.
 
 2. Change the Region to “US”.
 
-3. Select the “Channel” tab and click on “Edit” to add your own private channels here.
+3. Select the “Channel” tab and tap on “Edit” to add your own private channels here.
 
-4. Tap on “Add Channel” and enter the Channel Details or Scan the QR code and have it set automatically.
+4. Tap on “Add Channel” and enter the Channel Details or Scan the QR code to have it set automatically.
 
 ---
 
@@ -318,7 +318,7 @@ Now, I’d be happy to answer any questions you may have.
 
 ![](http://hedgedoc.malin.onl/uploads/c5cfceaa-5ea8-4bb3-b95f-244e9e673d80.jpg)
 
-Alright, here on the left is the link to the Meshtastic.org website as well as the link the GitHub repo for this presentation.
+Alright, here on the right is the link to the Meshtastic.org website as well as the link the GitHub repo for this presentation.
 
 The large code in the center are the Private Conference Channels we have setup for you. Scan the code to join in on the conversations.
 
