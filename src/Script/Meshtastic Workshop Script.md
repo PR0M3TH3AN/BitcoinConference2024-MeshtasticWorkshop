@@ -22,7 +22,7 @@ Meshtastic and LoRa together can create a mesh relay network of encrypted radio 
 
 ![](http://hedgedoc.malin.onl/uploads/6e428874-85f6-45ba-ba5a-24f01619c9eb.jpg)
 
-Here are some of the topics we will try to cover today. 
+Here are some of the topics we will try to cover today.
 
 ---
 
@@ -42,7 +42,7 @@ Meshtastic combines open-source radio firmware that is loaded onto these LoRa de
 
 ![](http://hedgedoc.malin.onl/uploads/645e9c3c-2db0-4583-ac65-b0a93c19455f.jpg)
 
-LoRa, which stands for Long Range, is a spectrum modulation technique. It operates on unlicensed frequencies like 868 MHz in Europe and 915 MHz in North America. 
+LoRa, which stands for Long Range, is a spectrum modulation technique. It operates on unlicensed frequencies like 868 MHz in Europe and 915 MHz in North America.
 
 LoRa uses a ‘chirp pattern’ signaling method, which allows the signal to better penetrate through obstacles and also cover long distances. Due to its low power consumption, LoRa devices can operate on batteries for weeks at a time, making them ideal for remote or mobile deployments.
 
@@ -140,7 +140,7 @@ Then the Chrome browser will ask for permission to connect to the device. If you
 
 ![](http://hedgedoc.malin.onl/uploads/293c10f8-debd-4a8a-8cf8-5c56bfc37569.jpg)
 
-Now were done on the LoRa device side of things. You should now see a Meshtastic screen on the device with a connection code under the logo. We will use this one-time code to connect the phone to this radio.
+ow were done on the LoRa device side of things. You should now see a Meshtastic screen on the device with a connection code under the logo. We will use this one-time code to connect the phone to this radio.
 
 ---
 
@@ -168,13 +168,13 @@ Later in the slides I will show how to connect to the Bitcoin Conference Channel
 
 Next lets walk through the Android setup since they are slightly different.
 
-1. After installing the Meshtastic App, power on the device and then Click the + button to add the nearby device. Then put in the one-time code from the LoRa devices screen. 
+1. After installing the Meshtastic App, power on the device and then tap the + button to add the nearby device. Then put in the one-time code from the LoRa devices screen. 
 
 2. Change the Region to “US”.
 
 3. Select the “Channel” tab and click on “Edit” to add your own private channels here.
 
-4. Click on “Add Channel” and enter the Channel Details or Scan the QR code and have it set automatically. If you already have channels setup be sure to save the URL or QR code for restoration later before scanning this new QR code.
+4. Tap on “Add Channel” and enter the Channel Details or Scan the QR code and have it set automatically.
 
 ---
 
@@ -184,7 +184,7 @@ Next lets walk through the Android setup since they are slightly different.
 
 If you already have a Meshtastic Device, you can join our private Bitcoin Conference chat channels that we have setup. Here is the information you will need to connect. Open the Meshtastic app, go to the Channels tab and scan the code. 
 
-Again, If you already have some custom channels setup make sure to backup your configuration or save your Channel URL somewhere so you can restore them later before scanning this code.
+If you already have some custom channels setup make sure to backup your configuration or save your Channel URL somewhere so you can restore them later before scanning this code.
 
 ---
 
@@ -254,15 +254,15 @@ Here is an example of a well placed node at the top of this hill. This node is a
 
 #### Slide 24
 
-![](http://hedgedoc.malin.onl/uploads/66017579-20da-4f7c-b1a9-5c90b57ea3cf.jpg)
+![](http://hedgedoc.malin.onl/uploads/0cd467d2-d57f-47e7-8793-62ff7d15e532.jpg)
 
 Let's talk about how Meshtastic uses encryption so we can better understand how keep our messages secure.
 
 Meshtastic does use strong AES256 encryption to secure its channels, ensuring that messages sent within these channels remain private.
 
-Each channel in has a unique key used for encryption. This key is used to encrypt messages sent within that channel, including direct messages between users on the same channel. The default LongFast channel has a publicly known key (AQ==). This means that anyone can join this default channel, and messages sent over this channel are not secure since the key is publicly available. For better security, it is recommended to create private channels with unique keys. These keys should be shared securely (using a secure communication method like Signal) with those you want to communicate with. This ensures that only intended participants can access the channel.
+Each channel in has a unique key used for encryption. This key is used to encrypt messages sent within that channel, including direct messages between users on the same channel. The default LongFast channel has a publicly known key (AQ==). This means that anyone can join this default channel, and messages sent over this channel are not secure since the key is publicly available. For better security, it is recommended to create private channels with unique keys. These keys should be shared using a secure method like Signal. This ensures that only intended participants can access that channel.
 
-Direct messages in Meshtastic are not as secure if the initial contact was made on the default LongFast channel because the encryption key for DMs would be the same publicly known key. Therefore, it is better to use private channels with unique keys for more secure communications. Sharing the channel keys outside the mesh network and not through DMs on the default channel adds an extra layer of security.
+Direct messages in Meshtastic are not as secure if the initial contact was made on the default “LongFast” channel. This is because the encryption key is publicly known. Therefore, it is better to use private channels with unique keys for more secure communications. For extra security, sharing the channel keys outside the mesh network and not through DMs on the default channel is best.
 
 ---
 
@@ -272,11 +272,11 @@ Direct messages in Meshtastic are not as secure if the initial contact was made 
 
 Next we will look at when you might use Meshtastic. Here are some practical examples showing how these technologies can be effectively utilized in various scenarios.
 
-Rural Area Connectivity: LoRa/Meshtastic can provide reliable communication in rural areas where traditional infrastructure is lacking or nonexistent.
+A LoRa mesh can provide reliable communication in rural areas where traditional infrastructure is lacking or nonexistent.
 
-Outdoor Adventures: For hikers, campers, and kayakers, LoRa/Meshtastic offers a dependable way to stay in touch with your group in remote locations where cell service is unavailable, enhancing safety and coordination.
+For hikers, campers, and kayakers, LoRa offers a dependable way to stay in touch with your group in remote locations where cell service is unavailable, enhancing safety and coordination.
 
-Disaster Response: During natural disasters or other emergency situations, when traditional communication networks fail or are overloaded with traffic, LoRa/Meshtastic can be used as an alternative communication network, ensuring that vital information is quickly relayed throughout the community.
+During natural disasters or other emergency situations, when traditional communication networks fail or are overloaded with traffic, LoRa can be used as an alternative communication network, ensuring that vital information is quickly relayed throughout the community.
 
 ---
 
@@ -318,8 +318,8 @@ Now, I’d be happy to answer any questions you may have.
 
 ![](http://hedgedoc.malin.onl/uploads/c5cfceaa-5ea8-4bb3-b95f-244e9e673d80.jpg)
 
-Here are some links to Meshtastic resources as well as a download link for this entire presentation. 
+Alright, here on the left is the link to the Meshtastic.org website as well as the link the GitHub repo for this presentation.
 
-The large QR code is the Bitcoin Conference Private Channels. Scan to join in on the conversations.
+The large code in the center are the Private Conference Channels we have setup for you. Scan the code to join in on the conversations.
 
 Thanks for joining us for this Meshtastic workshop, I hope it was informative and enjoy the rest of the conference!
