@@ -22,7 +22,19 @@ Meshtastic and LoRa together can create a mesh relay network of encrypted radio 
 
 ![](http://hedgedoc.malin.onl/uploads/6e428874-85f6-45ba-ba5a-24f01619c9eb.jpg)
 
-Here are some of the topics we will try to cover today.
+Here are some of the topics we will try to cover today. 
+
+1. What is Meshtastic and LoRa?
+
+2. How to Install Device Firmware
+
+3. Setting Up and Connecting the App
+
+4. Meshtastic and Encryption
+
+5. Optimizing the Network
+
+6. And Practical Uses 
 
 ---
 
@@ -158,8 +170,6 @@ I’ll will start with the iPhone version of the app.
 
 3. Then you can setup the public and private channels. The default public channel is called “LongFast”. Its encryption key is AQ==. This key is known to everyone.
 
-Later in the slides I will show how to connect to the Bitcoin Conference Channels we have setup. Also this presentation will be available to download for reference.
-
 ---
 
 #### Slide 15
@@ -256,7 +266,7 @@ Here is an example of a well placed node at the top of this hill. This node is a
 
 ![](http://hedgedoc.malin.onl/uploads/0cd467d2-d57f-47e7-8793-62ff7d15e532.jpg)
 
-Let's talk about how Meshtastic uses encryption so we can better understand how keep our messages secure.
+Let's talk about how Meshtastic uses encryption so we can better understand how to keep our messages secure.
 
 Meshtastic does use strong AES256 encryption to secure its channels, ensuring that messages sent within these channels remain private.
 
@@ -302,11 +312,11 @@ Feel free to reach out to me on Nostr at thePR0M3TH3AN if you have any other que
 
 Before we move into the Q&A segment, let’s recap the key takeaways from today’s workshop:
 
-Meshtastic is open-source software that uses the LoRa mesh for decentralized, off-grid communication. It consists of a phone application and custom firmware on a LoRa radio devices, working together over Bluetooth.
+Meshtastic is open-source software that uses the LoRa mesh for decentralized, off-grid communication. It consists of a phone application and custom firmware on a LoRa radio device, working together over Bluetooth.
 
 Meshtastic uses strong encryption to ensure the confidentiality and security of your messages. Understanding how the channel keys work is crucial for maintaining that security.
 
-For optimal mesh network performance, place nodes in locations with clear lines of sight. For more strategic placements, consider landscape topology and obstructions as well as the locations of other nodes in your area. This will enhances the networks reliability.
+For optimal mesh network performance, place nodes in locations with clear lines of sight. For more strategic placements, consider landscape topology and obstructions as well as the locations of other nodes in your area. This enhances the networks reliability.
 
 Meshtastic can be used for rural connectivity, emergency communication, and mobile mesh networks.
 
